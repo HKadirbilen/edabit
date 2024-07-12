@@ -23,11 +23,6 @@ Test = Edatest()
 def addition(a, b):
     return a + b
 
-
-toplam = addition(4,7)
-print(toplam)
-
-
 if __name__ == '__main__':
     Test.assert_equals(addition(2,3), 5)
     Test.assert_equals(addition(-3,-6), -9)
